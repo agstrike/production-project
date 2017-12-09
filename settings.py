@@ -137,6 +137,8 @@ LOGIN_URL = 'account_login'
 LOGOUT_URL = 'account_logout'
 ACCOUNT_LOGOUT_REDIRECT_URL = 'account_login'
 
+ACCOUNT_ADAPTER = 'signupadapter.SignupDisabledAdapter'
+
 LOGGING = {
     'version': 1,
     'filters': {
